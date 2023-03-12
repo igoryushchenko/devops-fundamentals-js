@@ -16,5 +16,5 @@ do
   then
     echo "WARNING: Free disk space below threshold of $threshold MB"
   fi
-  sleep 2m # wait for 5 minutes before checking again
+  sleep 5m # wait for 5 minutes before checking again
 done
